@@ -1,0 +1,22 @@
+import java.util.*;
+public class SumOfTwo {
+
+    public int sumOfTwo(int n1,int n2){
+        return n1+n2;
+    }
+    public static void main(String[]args){
+        System.out.println("Enter first no");
+        System.out.println("Enter second no");
+         Scanner sc=new Scanner(System.in);
+         int n1=sc.nextInt();
+         int n2=sc.nextInt();
+
+         SumOfTwo obj = new SumOfTwo();
+
+         int result = obj.sumOfTwo(n1,n2);
+         System.out.println("the sum is"+result);
+
+          
+    }
+    
+}
